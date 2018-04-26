@@ -157,6 +157,7 @@ LocationMap::IsInBounds( float latitude, float longitude ) const
 }
 
 // this uses a algorithm taken from https://wrf.ecse.rpi.edu//Research/Short_Notes/pnpoly.html
+// there is information for running multiple polygons and holes in polygons through this algothim on the above page
 bool
 LocationMap::IsInPolygon( float latitude, float longitude ) const 
 { 
